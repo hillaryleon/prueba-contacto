@@ -1,0 +1,155 @@
+footer{
+    background-color: aqua;
+}
+
+.titulo-footer{
+    font-size: 36px;
+    margin-left: 75px;
+}
+
+.entregas{
+    display: flex;
+    margin: 50px 200px;
+    text-align: center;
+}
+
+.entregas-info{
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin:  10px 20px;
+}
+
+.entrgas-titulo{
+    font-size: 24px;
+}
+
+.entregas-texto{
+    font-size:16px ;
+    margin-top: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-top: 2px solid #ccc; /* Línea superior */
+    border-bottom: 2px solid #ccc; /* Línea inferior */
+    padding: 20px; /* Espacio interno */
+}
+
+.footer-correo{
+    margin-left: 280px;
+}
+
+.descuento{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.correo{
+    margin: 10px 20px;
+}
+
+.correo-cuadro{
+    width: 300px;
+}
+
+.correo-cuadro[type="email"]{
+    text-align: center;
+}
+
+.footer-logos{
+    margin-right: 350px;
+}
+
+.logo-final{
+    margin-left: 800px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+footer {
+    background-color: aqua;
+}
+
+.titulo-footer {
+    font-size: 36px;
+    margin-left: 75px;
+}
+
+.entregas {
+    display: grid; /* Cambiado a grid para dos columnas */
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 20px; /* Espacio entre las columnas */
+    margin: 50px 20px; /* Márgenes */
+    text-align: center;
+}
+
+.entregas-info {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px; /* Márgenes reducidos para ajustarse mejor */
+}
+
+.entrgas-titulo {
+    font-size: 24px;
+}
+
+.entregas-texto {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+    justify-content: space-between;
+    align-items: center;
+    height: auto; /* Ajustar a contenido */
+    border-top: 2px solid #ccc; /* Línea superior */
+    border-bottom: 2px solid #ccc; /* Línea inferior */
+    padding: 10px; /* Espacio interno */
+}
+
+.footer-correo {
+    margin: 0 70px;
+    flex: 1; /* Hacer que el correo ocupe espacio disponible */
+}
+
+.descuento {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.correo {
+    margin: 10px 10px;
+    display: flex;
+}
+
+.correo-cuadro {
+    width: 300px;
+}
+
+.correo-cuadro[type="email"] {
+    text-align: center;
+}
+
+.boton-enviar{
+    margin-left: 10px;
+}
+
+.footer-logos {
+    margin-right: 0; /* Ajustar según sea necesario */
+    flex: 1; /* Hacer que los logos ocupen espacio disponible */
+}
+
+.logo-final {
+    margin: 0 270px; /* Ajustar según sea necesario */
+}
+
+}
